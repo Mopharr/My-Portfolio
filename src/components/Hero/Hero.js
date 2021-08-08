@@ -12,7 +12,7 @@ const Hero = () => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-       I am a Money Stack Developer with 2 years experience in Front-End Developement(HTML, CSS, JavaScript(React.js)), 
+       I am a Software Developer with 2 years experience in Front-End Developement(HTML, CSS, JavaScript(React.js)), 
        3 years experience with python(Data Science and Machine Learning)
         and a Freelancer building online Visibility and Credibility to help increase Sales.
       </SectionText>
