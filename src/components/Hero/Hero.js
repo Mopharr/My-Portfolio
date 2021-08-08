@@ -16,7 +16,7 @@ const Hero = () => (
        3 years experience with python(Data Science and Machine Learning)
         and a Freelancer building online Visibility and Credibility to help increase Sales.
       </SectionText>
-      <Button onClick = {() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button onClick = {() => window.location = 'https://drive.google.com/file/d/1S1HUNNTO_TO3piKCJ62rErFwimEuY0c6/view?usp=sharing'}>Download Resume</Button>
     </LeftSection>
   </Section>
 );
