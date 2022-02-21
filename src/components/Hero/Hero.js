@@ -1,22 +1,37 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import Button from "../../styles/GlobalComponents/Button";
+import { LeftSection } from "./HeroStyles";
 
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle>
-        Welcome to <br/>
+        Welcome to <br />
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-       I am a Software Developer with 2 years experience in Front-End Developement(HTML, CSS, JavaScript(React.js)), 
-       3 years experience with python(Data Science and Machine Learning)
-        and a Freelancer building online Visibility and Credibility to help increase Sales.
+        Responsible, detail-oriented, results-driven, and committed engineer
+        with a get-it-done, on-me, and high-quality product spirit and a
+        demonstrated history of working in the Front-End Development industry
+        with about 4 years of building online assets to attract maximum
+        engagement and conversions. With a good experience working with teams to
+        produce impact, leading-edge software that engages customers and
+        delivers require business results.{" "}
       </SectionText>
-      <Button onClick = {() => window.location = 'https://drive.google.com/file/d/1S1HUNNTO_TO3piKCJ62rErFwimEuY0c6/view?usp=sharing'}>Download Resume</Button>
+      <Button
+        onClick={() =>
+          (window.location =
+            "https://drive.google.com/file/d/11fV3lAXuIBCKK9JZfoESjBnXYR0wMZRP/view?usp=sharing")
+        }
+      >
+        Download Resume
+      </Button>
     </LeftSection>
   </Section>
 );

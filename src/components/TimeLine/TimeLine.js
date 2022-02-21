@@ -43,22 +43,26 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id = 'about'>
+    <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a Software Developer with 2 years experience in Front-End Developement(HTML, CSS, JavaScript(React.js)), 
-       3 years experience with python(Data Science and Machine Learning)
-        and a Freelancer building online Visibility and Credibility to help increase Sales.
+        I am a Software Developer with 4+ years experience in Front-End
+        Developement(MarkUp Language, JavaScript(React.js, NextJs, VueJs)), and
+        a Freelancer building online Visibility and Credibility to help increase
+        Sales.
       </SectionText>
-      <CarouselContainer ref = {carouselRef} onScroll = {handleScroll}>
+      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
-            <CarouselMobileScrollNode key = {index} final = {index === TOTAL_CAROUSEL_COUNT -1}>
+            <CarouselMobileScrollNode
+              key={index}
+              final={index === TOTAL_CAROUSEL_COUNT - 1}
+            >
               <CarouselItem
-                index = {index}
-                id = {`carousel__iten-${index}`}
-                active = {activeItem}
-                onClick = {(e) => handleClick(e, index)}
+                index={index}
+                id={`carousel__iten-${index}`}
+                active={activeItem}
+                onClick={(e) => handleClick(e, index)}
               >
                 <CarouselItemTitle>
                   {item.year}
@@ -67,7 +71,8 @@ const Timeline = () => {
                     height="6"
                     viewBox="0 0 208 6"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"
@@ -82,7 +87,8 @@ const Timeline = () => {
                         y1="0.5"
                         x2="208"
                         y2="0.500295"
-                        gradientUnits="userSpaceOnUse">
+                        gradientUnits="userSpaceOnUse"
+                      >
                         <stop stop-color="white" />
                         <stop
                           offset="0.79478"
@@ -93,9 +99,7 @@ const Timeline = () => {
                     </defs>
                   </CarouselItemImg>
                 </CarouselItemTitle>
-                <CarouselItemText>
-                  {item.text}
-                </CarouselItemText>
+                <CarouselItemText>{item.text}</CarouselItemText>
               </CarouselItem>
             </CarouselMobileScrollNode>
           ))}
@@ -104,17 +108,17 @@ const Timeline = () => {
       <CarouselButtons>
         {TimeLineData.map((item, index) => (
           <CarouselButton
-            key = {index}
-            index = {index}
-            active = {activeItem}
-            onClick = {(e) => handleClick(e, index)}
-            type = "button"
+            key={index}
+            index={index}
+            active={activeItem}
+            onClick={(e) => handleClick(e, index)}
+            type="button"
           >
-            <CarouselButtonDot active = {activeItem}/>
+            <CarouselButtonDot active={activeItem} />
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider/>
+      <SectionDivider />
     </Section>
   );
 };

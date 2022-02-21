@@ -20,7 +20,8 @@ const Technologies = () =>  (
               HTMl <br/>
               CSS <br/>
               Vanila JavaScript<br/>
-              React.js
+              React.js <br />
+              Vue.js
               
             </ListParagraph>
           </ListContainer>
