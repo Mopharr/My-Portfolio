@@ -47,9 +47,10 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         I am a Software Developer with 4+ years experience in Front-End
-        Developement(MarkUp Language, JavaScript(React.js, NextJs, VueJs)), and
-        a Freelancer building online Visibility and Credibility to help increase
-        Sales.
+        Developement(MarkUp Language, JavaScript(React.js, NextJs, VueJs)),
+        experience building responsive websites and web application designs from
+        concept through to deployment helping companies create and maintain a
+        better code base for reusability. Sales.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

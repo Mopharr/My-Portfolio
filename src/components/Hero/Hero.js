@@ -16,18 +16,17 @@ const Hero = () => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        Responsible, detail-oriented, results-driven, and committed engineer
-        with a get-it-done, on-me, and high-quality product spirit and a
-        demonstrated history of working in the Front-End Development industry
-        with about 4 years of building online assets to attract maximum
-        engagement and conversions. With a good experience working with teams to
-        produce impact, leading-edge software that engages customers and
-        delivers require business results.{" "}
+        I am an astute Software Engineer ( Frontend mainly ) with 4+ years of professional
+        experience building responsive websites and web application designs from
+        concept through to deployment helping companies create and maintain a
+        better code base for reusability. I can highly adapt to a continuous
+        learning environment and eager to tackle complex problems which
+        maximizes productivity.{" "}
       </SectionText>
       <Button
         onClick={() =>
           (window.location =
-            "https://drive.google.com/file/d/11fV3lAXuIBCKK9JZfoESjBnXYR0wMZRP/view?usp=sharing")
+            "https://drive.google.com/file/d/1IQz0ICDz4LcSo3oUqy9Xd577nOu8LB92/view?usp=sharing")
         }
       >
         Download Resume

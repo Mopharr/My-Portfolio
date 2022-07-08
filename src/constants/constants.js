@@ -1,13 +1,23 @@
 export const projects = [
   {
-    title: "MERN Memories",
+    title: "Aufera",
     description:
-      "Using React, Axios, React-Reveal and other React Libraries - from start to finish. The App is called Aufera and it is a peer to peer Car Rental Services.",
+      "Aufera is a peer-to-peer car rental marketplace that provides you with a wide range of options to enable you to move around easily. Worked directly with the CTO and designer building the website Implementing new technologies and adopting new tools typescript (next) .",
     image: "/images/aufera.png",
     tags: ["Mongo", "Express", "React", "Node"],
     source: "https://aufera.com",
     visit: "https://aufera.com",
     id: 0,
+  },
+  {
+    title: "Retyner",
+    description:
+      "Retyner is a software development company focusing on building web apps and software. Responsible for building a web interface Utilized JavaScript frameworks for serve rendering to increase the performance of SEO and Predictable state management for the web app;ication",
+    image: "/images/retyner.png",
+    tags: ["React", "JavaScript"],
+    source: "https://github.com/Mopharr/Tshirt-Cook",
+    visit: "https://tshirt-cook.com",
+    id: 1,
   },
   {
     title: "Tshirt Cook",
@@ -17,7 +27,7 @@ export const projects = [
     tags: ["React", "JavaScript"],
     source: "https://github.com/Mopharr/Tshirt-Cook",
     visit: "https://tshirt-cook.com",
-    id: 1,
+    id: 2,
   },
   {
     title: "DrummerVille",
@@ -27,23 +37,14 @@ export const projects = [
     tags: ["React", "WebRTC"],
     source: "https://github.com/dabsclement/dvfrontend",
     visit: "https://drummersville.com/",
-    id: 2,
-  },
-  {
-    title: "Unichat",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/4.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
     id: 3,
-  },
+  }
 ];
 
 export const TimeLineData = [
-  { year: 2018, text: 'Started my journey', },
-  { year: 2019, text: 'Focus on Python and Machine Learning', },
-  { year: 2020, text: 'Started my Journey as a Web deveoper', },
-  { year: 2021, text: 'Work as a Front-End Developer and Python Tutor', },
+  { year: 2018, text: "Started my journey" },
+  { year: 2019, text: "Focus on Python and Machine Learning" },
+  { year: 2020, text: "Started my Journey as a Web deveoper" },
+  { year: 2021, text: "Work as a Front-End Developer and Python Tutor" },
+  { year: 2022, text: "Work with a Aufera and a software development company" },
 ];
