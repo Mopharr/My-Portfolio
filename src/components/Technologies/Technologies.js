@@ -23,37 +23,36 @@ const Technologies = () => (
     <SectionText>
       I have worked with a reange of technolories in the Development World From
       Python(Data Science to Machine Learning) to Web Development(HTML, CSS,
-      JavaScript(ReactJs,VueJs, NextJs), and Typescript ). Check out some of my recent work on GitHub (github.com/Mopharr)
+      JavaScript(ReactJs,VueJs, NextJs), and Typescript ). Check out some of my
+      recent work on GitHub (github.com/Mopharr)
     </SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Language</ListTitle>
           <ListParagraph>
             Experience with: <br />
-            HTMl <br />
-            CSS <br />
-            Vanila JavaScript
+            JavaScript (ReactJs, NextJs, VueJs, AngularJs)
             <br />
-            ReactJs <br />
-            VueJs <br />
-            NextJs <br />
-            TypeScript <br />
+            TypeScript (ReactJs, NextJs, VueJs, AngularJs) <br />
+            Python <br />
+            Docker <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiPython size="3rem" />
         <ListContainer>
-          <ListTitle>Python</ListTitle>
+          <ListTitle>Skills</ListTitle>
           <ListParagraph>
             Experience with: <br />
-            Python Basic <br />
-            Data Analysis <br />
-            Data Visualization <br />
-            Data Science <br />
-            Machine Learning
+            Problem Solving <br />
+            Team Management <br />
+            Computer Literacy <br />
+            Strong Communication <br />
+            Creative <br />
+            Leadership
           </ListParagraph>
         </ListContainer>
       </ListItem>
